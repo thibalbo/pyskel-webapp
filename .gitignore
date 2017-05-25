@@ -1,4 +1,10 @@
+# extensions
 *.egg-info
 *.env
+*.pyc
 
+# dirs
 *__pycache__
+
+# project specific
+log/data/

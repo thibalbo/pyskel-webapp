@@ -1,6 +1,9 @@
+import logging
 from webapp import app
 from flask import render_template
 from webapp import config
+
+logger = logging.getLogger(__name__)
 
 
 @app.route('/')
